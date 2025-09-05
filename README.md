@@ -29,7 +29,7 @@ Have added the pdf of netlist in the project file
     - Softmax
 
 - **PhysicalDesign/**
-  - Contains RTL-to-GDSII flow result images using Cadence tools.
+  - Contains RTL-to-GDSII flow result images, flow is performed using Cadence tools.
     <img width="609" height="611" alt="image" src="https://github.com/user-attachments/assets/eab3538b-bf5f-4548-a1da-03fba5ab7055" />
 
 ---
