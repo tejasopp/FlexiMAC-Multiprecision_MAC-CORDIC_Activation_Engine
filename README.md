@@ -18,7 +18,7 @@ The design is intended for neural network acceleration, supporting multiple floa
     - `10` → **float4 (fp4)**
 ### MAC Unit Netlist:
 <img width="1639" height="568" alt="image" src="https://github.com/user-attachments/assets/8cf3e9a1-36b2-4114-8a2a-e622dfcd8e3f" />
-Have added the pdf of netlist in the project file
+Have added the pdf of netlist in the project file  
 
 - **ActivationEngine/**
   - Implements a CORDIC (**COordinate Rotation DIgital Computer**) based activation function engine.
