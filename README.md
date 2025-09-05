@@ -53,5 +53,3 @@ Have added the pdf of netlist in the project file
 
 ---
 
-## Author
-Designed and implemented as part of research/project work on hardware accelerators.
