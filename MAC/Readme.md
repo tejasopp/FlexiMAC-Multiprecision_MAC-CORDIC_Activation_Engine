@@ -1,1 +1,1 @@
-**axi_mac.v** - Top Level Module
+**mac_axi.v** - Top Level Module
