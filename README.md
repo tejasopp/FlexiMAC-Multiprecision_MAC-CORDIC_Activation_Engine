@@ -5,7 +5,7 @@ This repository contains the RTL implementation of a **multi-precision SIMD MAC 
 The design is intended for neural network acceleration, supporting multiple floating-point formats and nonlinear activation functions at the hardware level.
 
 ---
-<img width="671" height="501" alt="unit" src="https://github.com/user-attachments/assets/ad09b3c8-22f3-40e5-ab7b-0fa6296912d6" />
+<img width="557" height="412" alt="image" src="https://github.com/user-attachments/assets/6c8f6c43-4b2f-4fbf-909b-849e90d23621" />
 
 ## Repository Structure
 - **MAC/**
