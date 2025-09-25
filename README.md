@@ -8,7 +8,7 @@ The design is intended for neural network acceleration, supporting multiple floa
 <img width="557" height="412" alt="image" src="https://github.com/user-attachments/assets/6c8f6c43-4b2f-4fbf-909b-849e90d23621" />
 
 ## Repository Structure
-# Accelerator/
+### Accelerator/
 
 - **Overview/**
   - Custom **DNN accelerator** built on a 32×32 **systolic array**.
@@ -38,10 +38,11 @@ The design is intended for neural network acceleration, supporting multiple floa
   - Designed for **low-latency, high-throughput** computation.
 
 - **Future Enhancements/**
+  - AXI - Interfacing for RISC Processor.
   - Integration of the **CORDIC-based activation unit** into the main pipeline.
   - Optimizing **dataflow scheduling** for reduced memory bandwidth usage.
   - Exploring support for **additional precision formats** and quantization.  
-# MAC/
+### MAC/
   - Implements a SIMD (Single Instruction, Multiple Data) Multiply-Accumulate unit.
   - Equipped with **input memory** and **weight memory**, each capable of storing **64 bytes**.
   - Fully **AXI-enabled**: a processor transfers data to the input and weight memories via **full-duplex AXI**.
@@ -53,7 +54,7 @@ The design is intended for neural network acceleration, supporting multiple floa
 <img width="1639" height="568" alt="image" src="https://github.com/user-attachments/assets/8cf3e9a1-36b2-4114-8a2a-e622dfcd8e3f" />
 Have added the pdf of netlist in the project file  
 
-# ActivationEngine/
+### ActivationEngine/
   - Implements a CORDIC (**COordinate Rotation DIgital Computer**) based activation function engine.
   - Uses a **lookup table (LUT) approach** for efficient computation.
   - Supports the following activation functions (in **bf16 precision**):
@@ -61,7 +62,7 @@ Have added the pdf of netlist in the project file
     - Sigmoid
     - Softmax
 
-# PhysicalDesign/
+### PhysicalDesign/
   - Contains RTL-to-GDSII flow result images of MAC unit, flow is performed using Cadence tools.
     <img width="609" height="611" alt="image" src="https://github.com/user-attachments/assets/eab3538b-bf5f-4548-a1da-03fba5ab7055" />
 
