@@ -1,4 +1,4 @@
-# FlexiMAC: Multi-Precision SIMD MAC with CORDIC Activation Engine
+# SystoNN-Multiprecision DNN Accelerator Design
 
 ## Overview
 This repository contains the RTL implementation of a **Multi-precision FP8/FP4 DNN Accelerator unit**, **BF16/FP8/FP4 MAC unit**, and an **Activation function engine**.  
